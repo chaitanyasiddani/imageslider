@@ -1,0 +1,35 @@
+.container{
+    width:1000px;
+    height:1000px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.currentImage{
+    width:100%;
+    height:50%;
+    align-items: center;
+    
+    
+}
+.hidecurrentImage{
+    width:10px;
+    height:10px;
+    display:hide;
+}
+.circleIndicators{
+    display:flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left:-550px;
+}
+
+.currentindicator{
+    border-radius: 50%;
+    background-color: white;
+
+}
+.inactiveIndicator{
+    border-radius: 50%;
+    background-color: grey;
+}
